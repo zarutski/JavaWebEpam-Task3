@@ -4,10 +4,10 @@ public class Task04 {
 
     public static void main(String[] args) {
         int[] data = new int[]{3, 2, 3, 4, 5, 1, 6};
-        System.out.println(getMinPopularNumber(data));
+        System.out.println(minPopularNumber(data));
     }
 
-    public static int getMinPopularNumber(int[] arr) {
+    public static int minPopularNumber(int[] arr) {
         int popElement = 0;
         int popCount = 1;
 
